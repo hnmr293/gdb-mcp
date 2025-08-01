@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Claude Code
+/.claude
+
+# test apps
+/tests/1
+/tests/2
+/tests/3
+/tests/4
+/tests/5
+/tests/6
+/tests/7

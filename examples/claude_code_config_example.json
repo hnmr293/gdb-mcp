@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "gdb-mcp": {
+      "command": "gdb-mcp"
+    }
+  }
+}

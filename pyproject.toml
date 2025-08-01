@@ -1,0 +1,18 @@
+[project]
+name = "gdb-mcp"
+version = "0.1.0"
+description = "MCP server providing GDB debugger commands reference and tools"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.12.3",
+]
+
+[project.scripts]
+gdb-mcp = "gdb_mcp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.json"]
