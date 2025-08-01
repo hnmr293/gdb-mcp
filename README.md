@@ -1,5 +1,9 @@
 # GDB-MCP
 
+<video src="assets/1_4x.mp4" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
+
 GDB-MCP is a Model Context Protocol (MCP) server that provides programmatic access to the GNU Debugger (GDB). It enables AI models and other MCP clients to interact with GDB through a standardized interface, making debugging capabilities accessible through natural language interactions.
 
 Since it uses the gdb/mi interface, you can access the full functionality of gdb. We also provide a command reference for gdb in resources.
